@@ -1,4 +1,4 @@
-# CRM-app-skillbus app to manage clients data
+# 💾 CRM-app-skillbus app to manage clients data
 
 # Description <br>
 Frontend part of app has been created by me . The backend part was created by my partners.  It is possible to view the list of clients in the form of a table, add a new client, change information about an existing client (full name and contact information) and delete a client. All column headers, except contacts and actions, can be clicked to sort by the corresponding field. The first click sets the sorting in ascending order, the second one - in descending order. When entering text in the search field, the table data is re-requested from the API with the entered search query, and the request is sent only after the user has finished entering the search query. All the client's contacts are displayed as icons with links to this contact, as well as a popup hint with the type and value of this contact appears when you hover over it. When a client is added, deleted, or modified, a modal window appears.
